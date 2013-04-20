@@ -1,0 +1,23 @@
+*** THIS PROJECT IS STILL UNDER DEVELOPMENT ***r
+r
+1) Install vagrant, VirtualBox  and download lucid32 base boxr
+r
+This project is a simple Vagrant lucid32 server, so before you start you will need to install vagrant and VirtualBox. These are both very popular software and the latest version can installed in a couple of minutes ... just google it!r
+Next download the lucid32.box:r
+r
+  vagrant box add lucid32 http://files.vagrantup.com/lucid32.boxr
+r
+FYI ... vagrant will save the 249M box file in a hidden directory:r
+r
+  $ cd ~/.vagrant.d/boxesr
+  $ ls -ltrr
+  drwxr-xr-x  5 dpitts  660531311  170 Apr  9 22:43 lucid32r
+  $ du -hr
+  249M  ./lucid32r
+r
+2) Clone this repor
+r
+3) Go to the repo and launch the boxr
+r
+  cd [repo]r
+  vagrant upr
